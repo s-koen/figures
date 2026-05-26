@@ -16,5 +16,5 @@ fig.update_layout(
     yaxis_title="sin(x)",
 )
 
-fig.write_html("plots/index.html", include_plotlyjs="cdn")
+fig.write_html("plots/simple-test/interactive-sine-wave.html", include_plotlyjs="cdn")
 # %%
