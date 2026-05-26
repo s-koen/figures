@@ -1,6 +1,10 @@
 import numpy as np
 import plotly.graph_objects as go
+import plotly.io as pio
 
+pio.templates.default = "simple_white"
+
+##
 # grid
 
 x = np.linspace(-6, 6, 200)
@@ -42,6 +46,8 @@ fig.update_layout(
 fig.write_html(
     "plots/simple-test/sine-surface.html",
     include_plotlyjs="cdn",
+    include_mathjax="cdn",
     config={"responsive": True},
 )
+
 # %%

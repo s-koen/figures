@@ -2,6 +2,10 @@
 
 import numpy as np
 import plotly.graph_objects as go
+import plotly.io as pio
+
+pio.templates.default = "simple_white"
+
 
 x = np.linspace(0, 10, 1000)
 y = np.sin(x)
@@ -16,5 +20,10 @@ fig.update_layout(
     yaxis_title="sin(x)",
 )
 
-fig.write_html("plots/simple-test/interactive-sine-wave.html", include_plotlyjs="cdn")
+fig.write_html(
+    "plots/simple-test/interactive-sine-wave.html",
+    include_plotlyjs="cdn",
+    include_mathjax="cdn",
+    config={"responsive": True},
+)
 # %%
