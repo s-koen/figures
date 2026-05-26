@@ -24,7 +24,8 @@ def build_tree(path, indent=0):
         name = file.stem.replace("_", " ")
 
         html += (
-            " " * indent + f'<div><a target="viewer" href="{rel}">{name}</a></div>\n'
+            " " * indent
+            + f'<div><a target="viewer" href="#/{rel[:-5]}">{name}</a></div>\n'
         )
 
     return html
@@ -34,3 +35,4 @@ sidebar = build_tree(ROOT)
 
 with open("sidebar.js", "w") as f:
     f.write(f'document.getElementById("sidebar").innerHTML = `{sidebar}`;')
+# %%
