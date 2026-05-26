@@ -16,5 +16,5 @@ fig.update_layout(
     yaxis_title="sin(x)",
 )
 
-fig.write_html("index.html", include_plotlyjs="cdn")
+fig.write_html("plots/index.html", include_plotlyjs="cdn")
 # %%
