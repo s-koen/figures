@@ -12,6 +12,9 @@ document.getElementById("sidebar").innerHTML = `<details><summary>master-interns
     <details><summary>w19</summary>
         <div><a target="viewer" href="#/plots/master-internship/w19/low-mass-radius">low-mass-radius</a></div>
     </details>
+    <details><summary>w20</summary>
+        <div><a target="viewer" href="#/plots/master-internship/w20/periods">periods</a></div>
+    </details>
 </details>
 <details><summary>simple-test</summary>
     <div><a target="viewer" href="#/plots/simple-test/interactive-sine-wave">interactive-sine-wave</a></div>
