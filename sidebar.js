@@ -16,6 +16,9 @@ document.getElementById("sidebar").innerHTML = `<details><summary>master-interns
         <div><a target="viewer" href="#/plots/master-internship/w20/periods">periods</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w20/post-AGB-instabilities">post-AGB-instabilities</a></div>
     </details>
+    <details><summary>w21</summary>
+        <div><a target="viewer" href="#/plots/master-internship/w21/dredge-up">dredge-up</a></div>
+    </details>
 </details>
 <details><summary>simple-test</summary>
     <div><a target="viewer" href="#/plots/simple-test/interactive-sine-wave">interactive-sine-wave</a></div>
