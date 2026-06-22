@@ -18,6 +18,9 @@ document.getElementById("sidebar").innerHTML = `<details><summary>master-interns
     </details>
     <details><summary>w21</summary>
         <div><a target="viewer" href="#/plots/master-internship/w21/dredge-up">dredge-up</a></div>
+        <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope-density">losing-envelope-density</a></div>
+        <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope-entropy">losing-envelope-entropy</a></div>
+        <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope-opacity">losing-envelope-opacity</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope">losing-envelope</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w21/periods">periods</a></div>
     </details>
