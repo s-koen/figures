@@ -17,6 +17,7 @@ document.getElementById("sidebar").innerHTML = `<details><summary>master-interns
         <div><a target="viewer" href="#/plots/master-internship/w20/post-AGB-instabilities">post-AGB-instabilities</a></div>
     </details>
     <details><summary>w21</summary>
+        <div><a target="viewer" href="#/plots/master-internship/w21/delta-grid-grav-luminosity">delta-grid-grav-luminosity</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w21/dredge-up">dredge-up</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope-density">losing-envelope-density</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope-entropy">losing-envelope-entropy</a></div>
