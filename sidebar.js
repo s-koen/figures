@@ -24,6 +24,7 @@ document.getElementById("sidebar").innerHTML = `<details><summary>master-interns
         <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope-opacity">losing-envelope-opacity</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w21/losing-envelope">losing-envelope</a></div>
         <div><a target="viewer" href="#/plots/master-internship/w21/periods">periods</a></div>
+        <div><a target="viewer" href="#/plots/master-internship/w21/super-ad">super-ad</a></div>
     </details>
 </details>
 <details><summary>simple-test</summary>
